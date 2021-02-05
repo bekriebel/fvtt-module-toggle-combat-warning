@@ -25,6 +25,11 @@ class ToogleCombatWarning {
       return this._reallyToggleCombat(tokenObject, event);
     }
 
+    // Warn that only the GM can remove a combatant
+    if (!game.user.isGM) {
+      return ui.notifications.warn(game.i18n.localize("TOGGLECOMBATWARNING.onlyGmRemoveCombatant"));
+    }
+
     // If the token is in combat, warn before removing it
     return Dialog.confirm({
       title: game.i18n.localize("COMBAT.CombatantRemove"),
