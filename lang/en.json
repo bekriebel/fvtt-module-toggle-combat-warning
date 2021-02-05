@@ -1,0 +1,3 @@
+{
+    "TOGGLECOMBATWARNING.confirmToggleCombat": "<p>Are you sure you want to remove <strong>{actor}</strong> and any other selected tokens from the Combat Tracker?</p>"
+}

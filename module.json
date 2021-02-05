@@ -1,0 +1,32 @@
+{
+  "name": "toggle-combat-warning",
+  "title": "Toggle Combat Warning",
+  "description": "Provide a warning before removing a token from the Combat Tracker. This helps prevent accidentally toggling the combat state when trying to assisgn status efects.",
+  "authors": [
+    {
+      "name": "bekit",
+      "email": "fvtt-module-help@bekit.net",
+      "url": "https://bekit.net"
+    }
+  ],
+  "author": "bekit",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.7.9",
+  "scripts": [
+    "scripts/toggle-combat-warning.js"
+  ],
+  "url": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning",
+  "manifest": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/releases/latest/download/module.json",
+  "download": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/releases/latest/download/fvtt-module-toggle-combat-warning.zip",
+  "readme": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/blob/main/README.md",
+  "changelog": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/issues",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
