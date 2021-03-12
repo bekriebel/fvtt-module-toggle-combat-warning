@@ -7,13 +7,16 @@
       "name": "bekit",
       "email": "fvtt-module-help@bekit.net",
       "url": "https://bekit.net",
+      "discord": "bekit#4213",
       "patreon": "https://www.patreon.com/bekit",
-      "ko-fi": "https://ko-fi.com/bekit"
+      "ko-fi": "https://ko-fi.com/bekit",
+      "twitter": "@bekit"
     }
   ],
   "version": "0.1.2",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.8.0",
+  "manifestPlusVersion": "1.1.0",
   "scripts": [
     "scripts/toggle-combat-warning.js"
   ],
