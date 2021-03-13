@@ -2,6 +2,7 @@
   "name": "toggle-combat-warning",
   "title": "Toggle Combat Warning",
   "description": "Provide a warning before removing a token from the Combat Tracker. This helps prevent accidentally toggling the combat state when trying to assign status effects.",
+  "author": "bekit",
   "authors": [
     {
       "name": "bekit",
