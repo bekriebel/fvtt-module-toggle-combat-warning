@@ -1,3 +1,6 @@
+# v0.1.3
+* Fix manifest+ entries
+
 # v0.1.2
 * Add funding links to README and module.json
 * Update compatibility to FVTT v0.8.0
