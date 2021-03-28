@@ -14,9 +14,9 @@
       "twitter": "@bekit"
     }
   ],
-  "version": "0.1.3",
+  "version": "0.1.4",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "0.8.1",
   "manifestPlusVersion": "1.1.0",
   "scripts": [
     "scripts/toggle-combat-warning.js"

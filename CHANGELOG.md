@@ -1,3 +1,6 @@
+# v0.1.4
+* Update compatibility to FVTT v0.8.1
+
 # v0.1.3
 * Fix manifest+ entries
 
