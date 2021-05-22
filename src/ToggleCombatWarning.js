@@ -1,4 +1,6 @@
-class ToogleCombatWarning {
+import { LANG_NAME } from "./Constants.js";
+
+export default class ToggleCombatWarning {
   /**
     * Replaces the toggle combat action with our own
     *
@@ -27,13 +29,13 @@ class ToogleCombatWarning {
 
     // Warn that only the GM can remove a combatant
     if (!game.user.isGM) {
-      return ui.notifications.warn(game.i18n.localize("TOGGLECOMBATWARNING.onlyGmRemoveCombatant"));
+      return ui.notifications.warn(game.i18n.localize(`${LANG_NAME}.onlyGmRemoveCombatant`));
     }
 
     // If the token is in combat, warn before removing it
     return Dialog.confirm({
       title: game.i18n.localize("COMBAT.CombatantRemove"),
-      content: game.i18n.format("TOGGLECOMBATWARNING.confirmToggleCombat", { actor: hud.object.name }),
+      content: game.i18n.format(`${LANG_NAME}.confirmToggleCombat`, { actor: hud.object.name }),
       yes: () => this._reallyToggleCombat(tokenObject, event, true),
     });
   }
@@ -49,10 +51,3 @@ class ToogleCombatWarning {
     }
   }
 }
-
-/* -------------------------------------------- */
-/*  Hook calls                                  */
-/* -------------------------------------------- */
-Hooks.on("renderTokenHUD", (...args) => {
-  ToogleCombatWarning.replaceToggleCombatClick(...args);
-});

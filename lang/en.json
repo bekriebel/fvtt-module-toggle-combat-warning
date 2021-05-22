@@ -1,4 +1,6 @@
 {
     "TOGGLECOMBATWARNING.confirmToggleCombat": "<p>Are you sure you want to remove <strong>{actor}</strong> and any other selected tokens from the Combat Tracker?</p>",
+    "TOGGLECOMBATWARNING.debug": "Enable debug logging",
+    "TOGGLECOMBATWARNING.debugHint": "Enables debug and info logging levels",
     "TOGGLECOMBATWARNING.onlyGmRemoveCombatant": "Only the GM can remove a combatant."
 }
