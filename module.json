@@ -16,7 +16,7 @@
   ],
   "version": "0.1.4",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.8.1",
+  "compatibleCoreVersion": "0.8.5",
   "manifestPlusVersion": "1.1.0",
   "esmodules": [
     "src/toggle-combat-warning.js"
