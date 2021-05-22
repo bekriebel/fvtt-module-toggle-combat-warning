@@ -1,3 +1,8 @@
+# v0.1.5
+* Switch module to esmodule format
+* Fix combat button finding for Foundry v0.8.x
+* Update compatibility to FVTT v0.8.5
+
 # v0.1.4
 * Update compatibility to FVTT v0.8.1
 
