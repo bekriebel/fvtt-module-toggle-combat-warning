@@ -1,4 +1,5 @@
 import { LANG_NAME } from "./Constants.js";
+import * as log from "./Logging.js";
 
 export default class ToggleCombatWarning {
   /**
@@ -9,7 +10,22 @@ export default class ToggleCombatWarning {
     * @param {Token} token - The data for the Token (unused).
   */
   static replaceToggleCombatClick(hud, html) {
-    html.find(".combat").unbind("click").click(this._onToggleCombat.bind(this, hud));
+    // Foundry 0.7.x combat button
+    let combatButton = html.find(".combat");
+
+    if (combatButton.length === 0) {
+      // Foundry 0.8.x combat button
+      combatButton = html.find('[data-action="combat"]');
+    }
+
+    // No button found
+    if (combatButton.length === 0) {
+      log.error("Unable to find combat button");
+      return;
+    }
+
+    log.debug("Replacing toggle combat on button:", combatButton);
+    combatButton.unbind("click").click(this._onToggleCombat.bind(this, hud));
   }
 
   /**
