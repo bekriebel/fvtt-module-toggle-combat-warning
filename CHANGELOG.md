@@ -1,3 +1,7 @@
+# v0.1.7
+* Minor refactor for more consistency
+* Update compatible FVTT version to v0.8.6
+
 # v0.1.6
 * Fix github workflow after updating to esmodule
 
