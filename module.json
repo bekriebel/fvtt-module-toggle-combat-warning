@@ -17,10 +17,8 @@
   "version": "0.1.8",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.8.8",
-  "manifestPlusVersion": "1.1.0",
-  "esmodules": [
-    "src/toggle-combat-warning.js"
-  ],
+  "manifestPlusVersion": "1.2.0",
+  "esmodules": ["src/toggle-combat-warning.js"],
   "url": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning",
   "manifest": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/releases/latest/download/module.json",
   "download": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning/releases/latest/download/fvtt-module-toggle-combat-warning.zip",
