@@ -14,9 +14,9 @@
       "twitter": "@bekit"
     }
   ],
-  "version": "0.1.9",
+  "version": "0.1.10",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "9.231",
+  "compatibleCoreVersion": "10",
   "manifestPlusVersion": "1.2.0",
   "esmodules": ["src/toggle-combat-warning.js"],
   "url": "https://github.com/bekriebel/fvtt-module-toggle-combat-warning",
